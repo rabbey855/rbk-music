@@ -1,0 +1,138 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBK - Underground Artist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #ffcc00;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+        }
+        .bio, .experience, .portfolio, .contact, .hobbies, .blog, .fanbase {
+            margin-bottom: 40px;
+        }
+        .blog-post {
+            margin-bottom: 20px;
+        }
+        .language-toggle {
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>RBK - Underground Artist</h1>
+</header>
+
+<nav>
+    <a href="#bio">Bio</a>
+    <a href="#experience">Experience</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#blog">Blog</a>
+    <a href="#fanbase">Fan Base</a>
+</nav>
+
+<section id="bio" class="bio">
+    <h2>About Me</h2>
+    <p>Hi, I'm RBK, an underground artist passionate about dancehall and diverse genres like afro and afro beats. I create music that resonates with the soul and energizes the spirit. With tracks like "Reckless," "Ghana We Dey," "Bader Than Baddest," and "Pain," I'm on a mission to make a mark in the music world.</p>
+</section>
+
+<section id="experience" class="experience">
+    <h2>Work Experience</h2>
+    <p>Performing across various venues and platforms, I've honed my craft in creating engaging and dynamic performances. My music blends different styles, creating a unique and captivating experience for my audience.</p>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <p>Check out some of my tracks and videos:</p>
+    <ul>
+        <li><a href="#">Reckless</a></li>
+        <li><a href="#">Ghana We Dey</a></li>
+        <li><a href="#">Bader Than Baddest</a></li>
+        <li><a href="#">Pain</a></li>
+        <li><a href="#">More Music</a></li>
+    </ul>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Reach me on WhatsApp: +233502465080</p>
+</section>
+
+<section id="hobbies" class="hobbies">
+    <h2>Hobbies</h2>
+    <p>Beyond music, I enjoy exploring nature, connecting with fans, and staying current with the latest trends in music and culture.</p>
+</section>
+
+<section id="blog" class="blog">
+    <h2>Blog</h2>
+    <div class="blog-post">
+        <h3>Latest Post Title</h3>
+        <p>Content of the latest blog post...</p>
+    </div>
+    <div class="blog-post">
+        <h3>Another Post Title</h3>
+        <p>Content of another blog post...</p>
+    </div>
+</section>
+
+<section id="fanbase" class="fanbase">
+    <h2>Fan Base Community</h2>
+    <p>Join the community and stay updated with the latest news, events, and exclusive content. Be part of the RBK movement!</p>
+</section>
+
+<div class="language-toggle">
+    <button onclick="toggleLanguage()">Español</button>
+</div>
+
+<footer>
+    <p>&copy; 2024 RBK - All Rights Reserved</p>
+</footer>
+
+<script>
+    function toggleLanguage() {
+        // Language toggle functionality will be added here.
+        alert("Language toggle feature coming soon!");
+    }
+</script>
+
+</body>
+</html>
